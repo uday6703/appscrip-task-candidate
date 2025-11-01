@@ -5,7 +5,14 @@ const nextConfig = {
   },
   images: {
     domains: ['fakestoreapi.com'],
+    unoptimized: true
   },
+  typescript: {
+    ignoreBuildErrors: false,
+  },
+  eslint: {
+    ignoreDuringBuilds: false,
+  }
 }
 
 module.exports = nextConfig
